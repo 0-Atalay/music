@@ -41,12 +41,12 @@ def _start(client, message):
                         "➕ Beni Grubuna ekle 🙋‍♀️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
                 [
                     InlineKeyboardButton(
-                        "📲 Güncelleme duyuru", url=f"https://t.me/{UPDATES_CHANNEL}"), 
+                        "📲 Güncelleme duyuru", url=f"https://t.me/turkcbot"), 
                     InlineKeyboardButton(
-                        "💬 Support", url=f"https://t.me/{SUPPORT_GROUP}")
+                        "💬 Support", url=f"https://t.me/turkcbot")
                 ],[
                     InlineKeyboardButton(
-                        "🛠 Kaynak kodu 🛠", url=f"https://{SOURCE_CODE}")
+                        "🛠 GELİŞTİRİCİM 🛠", url=f"https://t.me/Drmehmetaktass")
                 ]
             ]
         ),
@@ -61,7 +61,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💬 Support Chat", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "💬 Support Chat", url=f"https://t.me/ailemizegel"
                     )
                 ]
             ]
@@ -102,9 +102,9 @@ def map(pos):
         url = f"https://t.me/{SUPPORT_GROUP}"
         button = [
             [InlineKeyboardButton("➕ Beni Grubuna ekle 🙋‍♀️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-            [InlineKeyboardButton(text = '📲 Güncelleme kanalı', url=f"https://t.me/{UPDATES_CHANNEL}"),
-             InlineKeyboardButton(text = '💬 Support', url=f"https://t.me/{SUPPORT_GROUP}")],
-            [InlineKeyboardButton(text = '🛠 Kaynak Kodu 🛠', url=f"https://{SOURCE_CODE}")],
+            [InlineKeyboardButton(text = '📲 Güncelleme kanalı', url=f"https://t.me/turkcbot"),
+             InlineKeyboardButton(text = '💬 Support', url=f"https://t.me/turkcbot")],
+            [InlineKeyboardButton(text = '🛠 GELİŞTİRİCİM 🛠', url=f"https://t.me/Drmehmetaktas")],
             [InlineKeyboardButton(text = '◀️', callback_data = f"help+{pos-1}")]
         ]
     else:
