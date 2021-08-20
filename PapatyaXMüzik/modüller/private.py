@@ -41,13 +41,13 @@ def _start(client, message):
                         "➕ Beni Grubuna ekle 🙋‍♀️", url=f"https://t.me/{BOT_USERNAME}?startgroup=new")],
                 [
                     InlineKeyboardButton(
-                        "📲 Güncelleme duyuru", url=f"https://t.me/turkcbot"), 
+                        "📲 Güncelleme duyuru", url=f"https://t.me/Thepurchle"), 
                     InlineKeyboardButton(
-                        "💬 Support", url=f"https://t.me/adalayrecord")
+                        "💬 Support", url=f"https://t.me/Thepurchle")
                 ],[
                     InlineKeyboardButton(
-                        "🛠 GELİŞTİRİCİM 🛠", url=f"https://t.me/atalayamaibnemsi")
-                ]
+                        "🛠 GELİŞTİRİCİM 🛠", url=f"https://t.me/ThePurchle")
+              
             ]
         ),
         reply_to_message_id=message.message_id
@@ -102,9 +102,9 @@ def map(pos):
         url = f"https://t.me/{SUPPORT_GROUP}"
         button = [
             [InlineKeyboardButton("➕ Beni Grubuna ekle 🙋‍♀️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-            [InlineKeyboardButton(text = '📲 Güncelleme kanalı', url=f"https://t.me/turkcbot"),
-             InlineKeyboardButton(text = '💬 Support', url=f"https://t.me/turkcbot")],
-            [InlineKeyboardButton(text = '🛠 GELİŞTİRİCİM 🛠', url=f"https://t.me/Drmehmetaktas")],
+            [InlineKeyboardButton(text = '📲 Güncelleme kanalı', url=f"https://t.me/Thepurchle"),
+             InlineKeyboardButton(text = '💬 Support', url=f"https://t.me/Thepurchle")],
+            [InlineKeyboardButton(text = '🛠 GELİŞTİRİCİM 🛠', url=f"https://t.me/Thepurchle")],
             [InlineKeyboardButton(text = '◀️', callback_data = f"help+{pos-1}")]
         ]
     else:
