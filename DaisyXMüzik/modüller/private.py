@@ -43,10 +43,10 @@ def _start(client, message):
                     InlineKeyboardButton(
                         "📲 Güncelleme duyuru", url=f"https://t.me/turkcbot"), 
                     InlineKeyboardButton(
-                        "💬 Support", url=f"https://t.me/turkcbot")
+                        "💬 Support", url=f"https://t.me/adalayrecord")
                 ],[
                     InlineKeyboardButton(
-                        "🛠 GELİŞTİRİCİM 🛠", url=f"https://t.me/Drmehmetaktass")
+                        "🛠 GELİŞTİRİCİM 🛠", url=f"https://t.me/atalayamaibnemsi")
                 ]
             ]
         ),
